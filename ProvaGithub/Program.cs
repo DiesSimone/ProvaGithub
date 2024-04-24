@@ -6,14 +6,13 @@ namespace ProvaGithub
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10000; i++) 
-            {
-                Spam();
-            }
+            Start();
         }
-        public static void Spam()
+        public static void Start()
         {
-            Console.WriteLine("CIAO GITHUB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            Console.WriteLine("Ciao, vuoi parlare con me?");
+            Console.ReadLine();
+            Console.WriteLine("Ok sei troppo noioso ciao");
         }
     }
 }
